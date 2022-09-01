@@ -1,0 +1,5 @@
+n=int(input())
+if n+7>170:
+    print("Yes")
+elif n+7<=170:
+    print("No")
