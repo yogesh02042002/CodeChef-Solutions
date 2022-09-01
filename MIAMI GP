@@ -1,0 +1,7 @@
+for i in range(int(input())):
+    X,Y = map(int, input().split(' '))
+    Z = (X/100)*107
+    if Y<=Z:
+        print("YES")
+    elif Y>Z:
+        print("NO")
