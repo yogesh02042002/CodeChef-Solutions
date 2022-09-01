@@ -1,0 +1,9 @@
+for _ in range(int(input())):
+    X,Y,Z = map(int, input().split(' '))
+    N = (X*Y)+((X//3)*Z)
+    if (X<=3):
+        print(X*Y)
+    elif(X%3!=0):
+        print(N)
+    else:
+        print(N-Z)
