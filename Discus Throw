@@ -1,0 +1,4 @@
+for i in range(int(input())):
+    A, B, C = map(int,input().split(' '))
+    R = max(A,B,C)
+    print(R)
