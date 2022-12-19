@@ -1,0 +1,11 @@
+cook your dish here
+t= int(input())
+s=[6,13,20,27,7,14,21,28]
+for i in range(t):
+    c=8
+    n = int(input())
+    arr=list(map(int,input().split(" ")))
+    for j in arr:
+        if j not in s:
+            c+=1
+    print(c)
